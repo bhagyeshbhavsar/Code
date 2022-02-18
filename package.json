@@ -1,9 +1,13 @@
 {
-  "name": "code",
+  "name": "portfolio-heroku-assignment1",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.0.0",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "App for assignment 1 submission",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhagyeshbhavsar/Code.git"
+  },
+  "author": "Bhagyesh Bhavsar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhagyeshbhavsar/Code/issues"
+  },
+  "homepage": "https://github.com/bhagyeshbhavsar/Code#readme"
 }
